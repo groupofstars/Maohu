@@ -1,0 +1,444 @@
+CRITICAL - 2023-08-07 04:39:03 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray([], 'insert')
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], false)
+ 4 APPPATH\Controllers\Home.php(256): CodeIgniter\Model->insert([], false)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_insert()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 04:39:53 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray([], 'insert')
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], false)
+ 4 APPPATH\Controllers\Home.php(256): CodeIgniter\Model->insert([], false)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_insert()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 04:41:01 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray([], 'insert')
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], false)
+ 4 APPPATH\Controllers\Home.php(256): CodeIgniter\Model->insert([], false)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_insert()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 04:57:24 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray([], 'insert')
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], false)
+ 4 APPPATH\Controllers\Home.php(256): CodeIgniter\Model->insert([], false)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_insert()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 04:57:53 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray([], 'insert')
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], false)
+ 4 APPPATH\Controllers\Home.php(256): CodeIgniter\Model->insert([], false)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_insert()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 05:05:06 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray([], 'insert')
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], false)
+ 4 APPPATH\Controllers\Home.php(256): CodeIgniter\Model->insert([], false)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_insert()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 05:05:29 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray([], 'insert')
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], false)
+ 4 APPPATH\Controllers\Home.php(256): CodeIgniter\Model->insert([], false)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_insert()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 05:09:31 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 257.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_insert()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 05:10:34 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 257.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_insert()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 05:10:48 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], false)
+ 3 APPPATH\Controllers\Home.php(258): CodeIgniter\Model->insert([...], false)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_insert()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 05:18:34 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray([], 'insert')
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], false)
+ 4 APPPATH\Controllers\Home.php(259): CodeIgniter\Model->insert([], false)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_insert()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 05:19:18 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray([], 'insert')
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], false)
+ 4 APPPATH\Controllers\Home.php(259): CodeIgniter\Model->insert([], false)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_insert()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 05:20:14 --> Undefined array key "name"
+in APPPATH\Controllers\Home.php on line 259.
+ 1 APPPATH\Controllers\Home.php(259): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 259)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 05:20:34 --> Undefined array key "status"
+in APPPATH\Controllers\Home.php on line 260.
+ 1 APPPATH\Controllers\Home.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 05:40:14 --> Undefined array key "name"
+in APPPATH\Controllers\Home.php on line 265.
+ 1 APPPATH\Controllers\Home.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 05:40:43 --> Undefined array key "name"
+in APPPATH\Controllers\Home.php on line 265.
+ 1 APPPATH\Controllers\Home.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 05:41:00 --> Undefined array key "name"
+in APPPATH\Controllers\Home.php on line 265.
+ 1 APPPATH\Controllers\Home.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 05:41:25 --> Undefined array key "name"
+in APPPATH\Controllers\Home.php on line 265.
+ 1 APPPATH\Controllers\Home.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 265)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:28:42 --> Undefined variable $items
+in APPPATH\Views\outlet_performance.php on line 57.
+ 1 APPPATH\Views\outlet_performance.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $items', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Views\\outlet_performance.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\pc\\Desktop\\Maohu\\app\\Views\\outlet_performance.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('outlet_performance', [], true)
+ 5 APPPATH\Controllers\Home.php(222): view('outlet_performance', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->outlet_promotion()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:36:48 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:36:54 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:38:16 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:39:03 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:39:06 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:40:45 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:40:46 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:40:56 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:41:49 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:42:19 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:42:31 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:43:41 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:43:43 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:43:57 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:44:04 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:44:50 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:45:17 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:45:21 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:45:23 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:46:29 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:47:25 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:48:53 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:49:25 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 06:49:43 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 141.
+ 1 APPPATH\Controllers\Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 141)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 07:16:28 --> Call to a member function delete() on null
+in APPPATH\Controllers\Home.php on line 333.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_delete()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 07:16:32 --> Call to a member function delete() on null
+in APPPATH\Controllers\Home.php on line 333.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_delete()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 07:16:55 --> Call to a member function where() on null
+in APPPATH\Controllers\Home.php on line 333.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_delete()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 07:21:33 --> Call to a member function where() on null
+in APPPATH\Controllers\Home.php on line 333.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_delete()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 07:22:23 --> Call to a member function delete() on null
+in APPPATH\Controllers\Home.php on line 333.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_delete()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 07:22:25 --> Call to a member function delete() on null
+in APPPATH\Controllers\Home.php on line 333.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_delete()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 07:22:29 --> Call to a member function delete() on null
+in APPPATH\Controllers\Home.php on line 333.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->update_item_delete()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 08:02:45 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Home.php(381): CodeIgniter\Model->update([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->edit_outlet_promotion_item()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-07 09:32:07 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], false)
+ 3 APPPATH\Controllers\Home.php(56): CodeIgniter\Model->insert([...], false)
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->changePassword()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')

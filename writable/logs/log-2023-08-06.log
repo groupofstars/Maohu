@@ -1,0 +1,983 @@
+CRITICAL - 2023-08-06 09:57:34 --> Undefined property: App\Controllers\Home::$db
+in APPPATH\Controllers\Home.php on line 84.
+ 1 APPPATH\Controllers\Home.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$db', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 09:57:58 --> Undefined property: App\Controllers\Home::$DB
+in APPPATH\Controllers\Home.php on line 84.
+ 1 APPPATH\Controllers\Home.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$DB', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 09:58:05 --> Call to undefined function App\Controllers\DB()
+in APPPATH\Controllers\Home.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 10:13:57 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Home.php on line 111.
+ 1 APPPATH\Controllers\Home.php(111): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_sales()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 10:14:18 --> Undefined variable $item
+in APPPATH\Models\SaleModel.php on line 19.
+ 1 APPPATH\Models\SaleModel.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Models\\SaleModel.php', 19)
+ 2 APPPATH\Controllers\Home.php(107): App\Models\SaleModel->getSales(0, 0)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_sales()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 10:20:44 --> syntax error, unexpected end of file
+in APPPATH\Views\sales_performance.php on line 552.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sales_performance', [], true)
+ 3 APPPATH\Controllers\Home.php(88): view('sales_performance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 10:21:12 --> syntax error, unexpected end of file
+in APPPATH\Views\sales_performance.php on line 552.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sales_performance', [], true)
+ 3 APPPATH\Controllers\Home.php(88): view('sales_performance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 10:25:21 --> syntax error, unexpected end of file
+in APPPATH\Views\sales_performance.php on line 553.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sales_performance', [], true)
+ 3 APPPATH\Controllers\Home.php(88): view('sales_performance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 10:26:51 --> syntax error, unexpected end of file
+in APPPATH\Views\sales_performance.php on line 553.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sales_performance', [], true)
+ 3 APPPATH\Controllers\Home.php(88): view('sales_performance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 10:27:11 --> syntax error, unexpected end of file
+in APPPATH\Views\sales_performance.php on line 553.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sales_performance', [], true)
+ 3 APPPATH\Controllers\Home.php(88): view('sales_performance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 10:27:39 --> syntax error, unexpected end of file
+in APPPATH\Views\sales_performance.php on line 553.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sales_performance', [], true)
+ 3 APPPATH\Controllers\Home.php(88): view('sales_performance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 10:28:01 --> syntax error, unexpected end of file
+in APPPATH\Views\sales_performance.php on line 553.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sales_performance', [], true)
+ 3 APPPATH\Controllers\Home.php(88): view('sales_performance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 10:28:19 --> syntax error, unexpected end of file
+in APPPATH\Views\sales_performance.php on line 553.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sales_performance', [], true)
+ 3 APPPATH\Controllers\Home.php(88): view('sales_performance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 10:28:47 --> syntax error, unexpected end of file
+in APPPATH\Views\sales_performance.php on line 553.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sales_performance', [], true)
+ 3 APPPATH\Controllers\Home.php(88): view('sales_performance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 10:29:00 --> syntax error, unexpected end of file
+in APPPATH\Views\sales_performance.php on line 553.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sales_performance', [], true)
+ 3 APPPATH\Controllers\Home.php(88): view('sales_performance', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 10:30:24 --> Call to a member function result_array() on array
+in APPPATH\Views\sales_performance.php on line 97.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sales_performance', [], true)
+ 4 APPPATH\Controllers\Home.php(88): view('sales_performance', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 10:35:05 --> Undefined variable $outlets
+in APPPATH\Views\sales_performance.php on line 58.
+ 1 APPPATH\Views\sales_performance.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $outlets', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Views\\sales_performance.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\pc\\Desktop\\Maohu\\app\\Views\\sales_performance.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sales_performance', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('sales_performance', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 10:35:20 --> Undefined variable $outlets
+in APPPATH\Views\sales_performance.php on line 58.
+ 1 APPPATH\Views\sales_performance.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $outlets', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Views\\sales_performance.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\pc\\Desktop\\Maohu\\app\\Views\\sales_performance.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sales_performance', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('sales_performance', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 10:37:12 --> Undefined variable $outletModel
+in APPPATH\Controllers\Home.php on line 129.
+ 1 APPPATH\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $outletModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 129)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_outlets()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 12:56:32 --> Invalid file: "add_salepage.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_salepage.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('add_salepage', [], true)
+ 3 APPPATH\Controllers\Home.php(139): view('add_salepage')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 15:35:38 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray([], 'insert')
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], false)
+ 4 APPPATH\Controllers\Home.php(152): CodeIgniter\Model->insert([], false)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 15:37:16 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray([], 'insert')
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], false)
+ 4 APPPATH\Controllers\Home.php(152): CodeIgniter\Model->insert([], false)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 15:38:36 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 151.
+ 1 APPPATH\Controllers\Home.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 15:53:37 --> Undefined array key "Name"
+in APPPATH\Controllers\Home.php on line 152.
+ 1 APPPATH\Controllers\Home.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Name"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 152)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 16:00:50 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray([], 'insert')
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], false)
+ 4 APPPATH\Controllers\Home.php(153): CodeIgniter\Model->insert([], false)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 16:00:54 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray([], 'insert')
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], false)
+ 4 APPPATH\Controllers\Home.php(153): CodeIgniter\Model->insert([], false)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 16:05:20 --> Allowed fields must be specified for model: "App\Models\SaleModel"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\SaleModel')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 4 APPPATH\Controllers\Home.php(153): CodeIgniter\Model->insert([...], false)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 16:05:56 --> Allowed fields must be specified for model: "App\Models\SaleModel"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\SaleModel')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 4 APPPATH\Controllers\Home.php(153): CodeIgniter\Model->insert([...], false)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 16:07:07 --> Undefined array key "Name"
+in APPPATH\Controllers\Home.php on line 156.
+ 1 APPPATH\Controllers\Home.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Name"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 16:08:13 --> Undefined array key "Name"
+in APPPATH\Controllers\Home.php on line 156.
+ 1 APPPATH\Controllers\Home.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Name"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 16:11:42 --> Undefined array key "Name"
+in APPPATH\Controllers\Home.php on line 156.
+ 1 APPPATH\Controllers\Home.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Name"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 16:17:08 --> Undefined array key "Name"
+in APPPATH\Controllers\Home.php on line 156.
+ 1 APPPATH\Controllers\Home.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Name"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 16:18:59 --> Allowed fields must be specified for model: "App\Models\SaleModel"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\SaleModel')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 4 APPPATH\Controllers\Home.php(153): CodeIgniter\Model->insert([...], false)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 16:20:06 --> Allowed fields must be specified for model: "App\Models\SaleModel"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\SaleModel')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 4 APPPATH\Controllers\Home.php(153): CodeIgniter\Model->insert([...], false)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 16:20:47 --> Allowed fields must be specified for model: "App\Models\SaleModel"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\SaleModel')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 4 APPPATH\Controllers\Home.php(153): CodeIgniter\Model->insert([...], false)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 16:21:59 --> Undefined array key "Name"
+in APPPATH\Controllers\Home.php on line 156.
+ 1 APPPATH\Controllers\Home.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Name"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 16:24:05 --> Undefined array key "Name"
+in APPPATH\Controllers\Home.php on line 156.
+ 1 APPPATH\Controllers\Home.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Name"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 16:24:17 --> Undefined constant "App\Controllers\Name"
+in APPPATH\Controllers\Home.php on line 156.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 16:24:28 --> Undefined array key 0
+in APPPATH\Controllers\Home.php on line 156.
+ 1 APPPATH\Controllers\Home.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 16:24:37 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 156.
+ 1 APPPATH\Controllers\Home.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 16:25:54 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 156.
+ 1 APPPATH\Controllers\Home.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 16:26:12 --> Undefined array key "Name"
+in APPPATH\Controllers\Home.php on line 156.
+ 1 APPPATH\Controllers\Home.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Name"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 16:27:09 --> Undefined array key "Name"
+in APPPATH\Controllers\Home.php on line 156.
+ 1 APPPATH\Controllers\Home.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Name"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 16:29:45 --> Undefined array key "Gros"
+in APPPATH\Controllers\Home.php on line 156.
+ 1 APPPATH\Controllers\Home.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Gros"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 156)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 16:30:20 --> Allowed fields must be specified for model: "App\Models\SaleModel"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\SaleModel')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 4 APPPATH\Controllers\Home.php(153): CodeIgniter\Model->insert([...], false)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sale_insert()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 17:23:50 --> Call to a member function getResultArray() on array
+in APPPATH\Controllers\Home.php on line 167.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_users()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 17:24:20 --> Call to a member function getResultArray() on array
+in APPPATH\Controllers\Home.php on line 167.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_users()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 17:25:11 --> Call to a member function getResultArray() on array
+in APPPATH\Controllers\Home.php on line 167.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_users()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 18:23:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::userModel()
+in APPPATH\Models\SaleModel.php on line 38.
+ 1 APPPATH\Controllers\Home.php(124): App\Models\SaleModel->get_sales_monthly_total()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_sales_monthly_total()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 18:28:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::userModel()
+in APPPATH\Models\SaleModel.php on line 38.
+ 1 APPPATH\Controllers\Home.php(124): App\Models\SaleModel->get_sales_monthly_total()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_sales_monthly_total()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 19:08:44 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1706.
+ 1 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray('Requested', 'update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], 'Requested')
+ 3 APPPATH\Controllers\Home.php(195): CodeIgniter\Model->update('permission', 'Requested')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->change_user_permission()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 19:14:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::userModel()
+in APPPATH\Models\SaleModel.php on line 38.
+ 1 APPPATH\Controllers\Home.php(124): App\Models\SaleModel->get_sales_monthly_total()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_sales_monthly_total()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 19:15:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::userModel()
+in APPPATH\Models\SaleModel.php on line 38.
+ 1 APPPATH\Controllers\Home.php(124): App\Models\SaleModel->get_sales_monthly_total()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_sales_monthly_total()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 19:15:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::userModel()
+in APPPATH\Models\SaleModel.php on line 38.
+ 1 APPPATH\Controllers\Home.php(124): App\Models\SaleModel->get_sales_monthly_total()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_sales_monthly_total()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 19:18:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::userModel()
+in APPPATH\Models\SaleModel.php on line 38.
+ 1 APPPATH\Controllers\Home.php(124): App\Models\SaleModel->get_sales_monthly_total()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_sales_monthly_total()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 19:18:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::userModel()
+in APPPATH\Models\SaleModel.php on line 38.
+ 1 APPPATH\Controllers\Home.php(124): App\Models\SaleModel->get_sales_monthly_total()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_sales_monthly_total()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:05:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::userModel()
+in APPPATH\Models\SaleModel.php on line 38.
+ 1 APPPATH\Controllers\Home.php(124): App\Models\SaleModel->get_sales_monthly_total()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_sales_monthly_total()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:05:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::userModel()
+in APPPATH\Models\SaleModel.php on line 38.
+ 1 APPPATH\Controllers\Home.php(124): App\Models\SaleModel->get_sales_monthly_total()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_sales_monthly_total()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:09:03 --> Cannot use object of type mysqli as array
+in APPPATH\Models\SaleModel.php on line 41.
+ 1 APPPATH\Controllers\Home.php(124): App\Models\SaleModel->get_sales_monthly_total()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_sales_monthly_total()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:09:15 --> Cannot use object of type mysqli as array
+in APPPATH\Models\SaleModel.php on line 41.
+ 1 APPPATH\Controllers\Home.php(124): App\Models\SaleModel->get_sales_monthly_total()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->get_sales_monthly_total()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:18:58 --> Undefined array key "permission"
+in APPPATH\Views\sales_performance.php on line 54.
+ 1 APPPATH\Views\sales_performance.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "permission"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Views\\sales_performance.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\pc\\Desktop\\Maohu\\app\\Views\\sales_performance.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sales_performance', [], true)
+ 5 APPPATH\Controllers\Home.php(92): view('sales_performance', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:19:47 --> Call to a member function getResultArray() on array
+in APPPATH\Controllers\Home.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:20:19 --> Call to a member function getResultArray() on array
+in APPPATH\Controllers\Home.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:20:49 --> Undefined array key "permission"
+in APPPATH\Views\sales_performance.php on line 54.
+ 1 APPPATH\Views\sales_performance.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "permission"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Views\\sales_performance.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\pc\\Desktop\\Maohu\\app\\Views\\sales_performance.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sales_performance', [], true)
+ 5 APPPATH\Controllers\Home.php(92): view('sales_performance', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:21:06 --> Undefined variable $user
+in APPPATH\Views\sales_performance.php on line 54.
+ 1 APPPATH\Views\sales_performance.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Views\\sales_performance.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\pc\\Desktop\\Maohu\\app\\Views\\sales_performance.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sales_performance', [], true)
+ 5 APPPATH\Controllers\Home.php(92): view('sales_performance', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:21:46 --> Undefined constant "permission"
+in APPPATH\Views\sales_performance.php on line 54.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sales_performance', [], true)
+ 4 APPPATH\Controllers\Home.php(92): view('sales_performance', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:24:31 --> Undefined array key "id"
+in APPPATH\Views\sales_performance.php on line 54.
+ 1 APPPATH\Views\sales_performance.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Views\\sales_performance.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\pc\\Desktop\\Maohu\\app\\Views\\sales_performance.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sales_performance', [], true)
+ 5 APPPATH\Controllers\Home.php(92): view('sales_performance', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:26:05 --> Call to a member function result_array() on array
+in APPPATH\Controllers\Home.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:26:13 --> Call to a member function row_array() on array
+in APPPATH\Controllers\Home.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:26:29 --> Call to a member function row_array() on array
+in APPPATH\Controllers\Home.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:27:54 --> Call to a member function row_array() on array
+in APPPATH\Controllers\Home.php on line 91.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:30:44 --> Call to a member function row_array() on array
+in APPPATH\Controllers\Home.php on line 91.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:30:54 --> Array to string conversion
+in APPPATH\Controllers\Home.php on line 93.
+ 1 APPPATH\Controllers\Home.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:31:06 --> Undefined array key "id"
+in APPPATH\Controllers\Home.php on line 93.
+ 1 APPPATH\Controllers\Home.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:31:09 --> Undefined array key "id"
+in APPPATH\Controllers\Home.php on line 93.
+ 1 APPPATH\Controllers\Home.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:31:31 --> Undefined constant "App\Controllers\id"
+in APPPATH\Controllers\Home.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:31:44 --> Undefined array key "id"
+in APPPATH\Controllers\Home.php on line 93.
+ 1 APPPATH\Controllers\Home.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:31:53 --> Undefined array key "email"
+in APPPATH\Controllers\Home.php on line 93.
+ 1 APPPATH\Controllers\Home.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:32:23 --> Call to a member function row_array() on array
+in APPPATH\Controllers\Home.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:33:07 --> Call to a member function result_array() on array
+in APPPATH\Controllers\Home.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:33:46 --> Call to a member function getResultArray() on array
+in APPPATH\Controllers\Home.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:33:58 --> Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:34:59 --> Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:35:00 --> Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:35:01 --> Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:35:13 --> Attempt to read property "email" on array
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on array', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:35:22 --> Attempt to read property "email" on array
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on array', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:35:23 --> Attempt to read property "email" on array
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on array', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:35:24 --> Attempt to read property "email" on array
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on array', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:36:59 --> Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:39:14 --> Call to a member function getRow() on null
+in APPPATH\Controllers\Home.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:39:39 --> Call to a member function getRowArray() on null
+in APPPATH\Controllers\Home.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:39:59 --> Call to a member function getRowArray() on null
+in APPPATH\Controllers\Home.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:40:24 --> Call to a member function getRowArray() on null
+in APPPATH\Controllers\Home.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:42:03 --> Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:42:19 --> Call to a member function getRowArray() on array
+in APPPATH\Controllers\Home.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:42:31 --> Call to a member function getRowArray() on array
+in APPPATH\Controllers\Home.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:44:47 --> Call to a member function getRow() on array
+in APPPATH\Controllers\Home.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:45:12 --> Call to a member function getResultArray() on array
+in APPPATH\Controllers\Home.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:46:15 --> Undefined array key "email"
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:46:28 --> Attempt to read property "email" on array
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on array', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:47:57 --> Undefined array key 0
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:47:58 --> Undefined array key 0
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:49:02 --> Undefined array key 0
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:49:03 --> Undefined array key 0
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:49:04 --> Undefined array key 0
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:50:54 --> Undefined array key 0
+in APPPATH\Controllers\Home.php on line 94.
+ 1 APPPATH\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 94)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:55:04 --> Undefined array key "email"
+in APPPATH\Controllers\Home.php on line 93.
+ 1 APPPATH\Controllers\Home.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:55:12 --> Undefined array key 0
+in APPPATH\Controllers\Home.php on line 93.
+ 1 APPPATH\Controllers\Home.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:55:27 --> Undefined array key "email"
+in APPPATH\Controllers\Home.php on line 93.
+ 1 APPPATH\Controllers\Home.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:55:48 --> Undefined variable $header
+in APPPATH\Views\sales_performance.php on line 1.
+ 1 APPPATH\Views\sales_performance.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $header', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Views\\sales_performance.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\pc\\Desktop\\Maohu\\app\\Views\\sales_performance.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sales_performance', [], true)
+ 5 APPPATH\Controllers\Home.php(92): view('sales_performance', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 21:56:04 --> Undefined variable $header
+in APPPATH\Views\sales_performance.php on line 1.
+ 1 APPPATH\Views\sales_performance.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $header', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Views\\sales_performance.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\pc\\Desktop\\Maohu\\app\\Views\\sales_performance.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('sales_performance', [], true)
+ 5 APPPATH\Controllers\Home.php(92): view('sales_performance', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->sales_performance()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 22:00:16 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 140.
+ 1 APPPATH\Controllers\Home.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 22:02:48 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 140.
+ 1 APPPATH\Controllers\Home.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
+CRITICAL - 2023-08-06 22:03:04 --> Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 140.
+ 1 APPPATH\Controllers\Home.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\Users\\pc\\Desktop\\Maohu\\app\\Controllers\\Home.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->add_salepage()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\pc\\Desktop\\Maohu\\public\\index.php')
